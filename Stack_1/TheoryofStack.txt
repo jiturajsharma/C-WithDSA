@@ -1,0 +1,30 @@
+# C-WithDSA
+
+
+/*
+Stack Data Structure
+        -> a stack is ann abstract data from with a capacity that is limited(predefined). It is a basic structure of datta that allows elements in a specific order to be added and removed. it goes to the top of the stack every time an element is added, and the element at the top of the  stack like heap of objects, is the only one that can be removed.
+
+
+        IMPLEMENTATION OF STACK DATA STRUCTURE
+
+        -> Using an Array or Related List, the stack can be easily implemented. Arrays are fast but are limited in size, and the linked list needs overhead but is not limited in size, to assign, connect, unlink and deallocate. We are going to implement stack using an array here.
+
+
+        ** FUNDAMENTAL ACTIVITIES
+        -> Stack operatrations can include initialization, use, are then de-initialization of the stack. A stack is used for the following twwo primary operations, in addition to these essential items.
+
+        Push() - Purshing an element one stack (storing it).
+        -- Removing (accessing) an element from the stack by pop().
+        --> if the information is moved onto the stack. to use a stack effectively, we also need to veryfy the state of the stack. The following functionality is applied to stack for the same reason.
+
+
+        -- Peek() :- Get the stack's top data part, without removing it.
+
+        -- IsFull() - checks if the stack is complete
+        --isEmpty() - checks if the stack is complete
+                                We retain a pointer to the last PUSHed data on the stack at all times. Since this pointer always represents the top of the stack, the top is thus called. the top pointer gives the stack's top value without necessarily removing it.
+                                
+
+
+*\
