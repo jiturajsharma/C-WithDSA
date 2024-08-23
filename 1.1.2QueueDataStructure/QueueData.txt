@@ -1,0 +1,5 @@
+List stack data structure Queue is either an abstract data from or a linear data structure in which the first element is added from one end called REAR(also called the tail ) and the existing element is removed from the other end called FRONT also called the head.
+                This generates a queue as the data structureof FIFO (first in first Out), which ensures that the variable inserted first will be removed first.
+                    This si excatly how the queue structure in the real-wold functions. if you go to the movie ticket counter to purchase movies tickets, and you're in the queue first, you're going to be the first one to get the tickets. Huh? Right? The same is the case for the structure of Queue data. The data that is entered first will first exit the queue.
+                    The process by which an element is inserted into the queue is called Enqueue, and the process by which an element is removed from the queue is called Dequeue.
+                    
