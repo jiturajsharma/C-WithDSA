@@ -1,0 +1,19 @@
+Like stack data structure Queue is either an abstract data from or a linear data structure in which the first element is added from one end called REAR (also called the tail) and the existing element is removed from the othere end called FRONT (also called the head). This generates a queue as the data structure of FIFO(first in first out), which ensures that the variable inserted first will be removed first.
+                This is exactly how the queue structure in the real-world function. If you go to the movie ticker counter to purchase movies ticket, and you're in the queue first, you're going to be the first one to get the tickets. Huhf? Right? The same is the case for the structure of queue data. The data that is entered first will first exit the queue.
+                The process by which an element is inserted into the queue is called Enqueue, and the process by which an element is removed from the queue is called Dequeue.
+
+
+** QUEUE'S BASIC FEATURES
+1.      The queue is often an ordered list of element of related data type, like a stack.
+2.      A FIFO(first in First out) system is a queue.
+3.      Once a new element is inserted in the queue, it is a important to remove all the element inserted in the queue before the new element is inserted, to delete the new element.
+4.      The peek() function is often used to return, without Dequeue, without dequeuing, the value of the first element.
+
+
+** QUEUE APPLICATION
+-> Queue, as the name indicates, is used if we need to treat any group of objects in an order in which the first once comes in, which the others wait for their turn, also gets out first, as in the following scenarios:
+
+1.  Serving demands, such as a printer, CPU task scheduling, etc., on a single shared resource.
+2.  Call Center telephone networks use line in real-life situations to keep people calling them in order until a service representative is ready.
+3. Interrupt management of real-time application. The interrupts are treated in the some order. i.e, first come first served, as they arrive.
+
