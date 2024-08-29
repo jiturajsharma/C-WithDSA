@@ -17,3 +17,18 @@ Like stack data structure Queue is either an abstract data from or a linear data
 2.  Call Center telephone networks use line in real-life situations to keep people calling them in order until a service representative is ready.
 3. Interrupt management of real-time application. The interrupts are treated in the some order. i.e, first come first served, as they arrive.
 
+
+** QUEUE DATA STRUCTURE IMPLEMENTATION 
+
+-> An Array, stack or linked List may be used to enforce the queue. Using an array is the best way of implementating a queue.
+-> At the first index of the array. initially the head(FRONT) and the tail(REAR) of the queue points (Starting the index of an array from 0). The tail keeps going forward as we add elements to the queue, always pointing to the place where the next element will be added, while the head stays on the firest index. add elements to the queue, always pointing to the place where the next element will be added. wjhile the head stays on the first index.
+                We can follow two possible approaches when we remove an element from the queue (mentioned[A] and [B]). We delete the element at the head position in the [A] approach and then transer all the other elements  one by one into the forward position.
+                We remove the element fron the head posiiton in approach[B] and then move the head to the next position.
+                There is an overhead in approache[A] of moving the element one position forward each time we remove the first element.
+                There is so such overhead in approach [B], but whenever we move head one position ahead, after removing the first variable, each time the size of the queue is reduced by one space.
+
+                ****ALGORITHM FOR RUNNING ENQUEUE
+        1. Check to see whether or not the queue is complete 
+        2. If the queue is complete, then the program will print an overflow error and exit.
+        3. If the queue is not complete, raise the queue and add an element to it.
+        
