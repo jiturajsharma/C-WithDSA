@@ -1,0 +1,24 @@
+## A priori Analysis :- 
+            Yeh algoriths ka theorical analysis hota hai. hisme algorithms ki efficiency ko calculate kiya jata hai aye assume  karke ki baki sab variables constant hai aur implementation pe ko assar nahi dalte hai jaise processer spedd.
+
+## A Posterior Analysis :- 
+            Yeh algorithm ka empirical analysis hota hai. Isme programming language ka use karke chosen algorithm ko implement kiya jata hai aur target computer machine pe execute kiya jata hai. Is analysis mein actual statistics collect kiye jate hain, jaise running time aur space ki zaroorat.
+
+##Time Factor: Yeh calculate kiya jata hai main operations ko count karke, jaise comparisons in a sorting algorithm. Matlab, kitna time lagta hai algorithm ko execute hone mein.
+
+##Space Factor: Yeh determine kiya jata hai algorithm ke maximum memory space ko count karke. Matlab, kitni memory space algorithm ko chahiye hoti hai.
+
+##Algorithm ki complexity ko f(n) ke roop mein express kiya jata hai, jahan n input data size hota hai. Yeh batata hai ki algorithm ko run hone mein kitna time aur storage space lagega. 
+
+## Fixed Component: Yeh wo space hota hai jo kuch information aur variables ko store karne ke liye chahiye hota hai, jo problem ke size pe depend nahi karta. Jaise, simple variables aur constants, program size, etc.
+
+##Variable Component: Yeh wo space hota hai jo variables ko store karne ke liye chahiye hota hai, jinka size problem ke size pe depend karta hai. Jaise, dynamic memory allocation, recursion stack space, etc.
+        space complexity ko S(P) ke roop main express kiya jata hai haha P algorithm hai. Formuloa hota hai 
+            S(P) = C+S(I)
+
+
+## Brute Force Algorithm : 
+        Brute force algorithms wo algorithms hote hain jo kisi problem ko solve karne ke liye sabhi possible solutions ko systematically try karte hain, bina kisi advanced technique ka use kiye. Yeh approach straightforward hota hai, lekin inefficient bhi ho sakta hai, especially jab problem ka size bada ho.
+        Example: Agar aapke paas ek chhota padlock hai jisme 4 digits hain (0-9), aur aap combination bhool gaye hain, toh aap brute force method use kar sakte hain. Aap 0000 se shuru karke ek-ek combination try karte jayenge, jaise 0001, 0002, 0003, aur aise hi aage badhte jayenge jab tak lock khul na jaye
+
+        ##Recursive algorithms:-  wo algorithms hote hain jo apne aap ko call karte hain jab tak ek base condition meet na ho jaye. Yeh approach complex problems ko solve karne ke liye kaafi useful hota hai, kyunki yeh problem ko chhote sub-problems mein tod deta hai.
