@@ -1,0 +1,5 @@
+## Divide and Conquer Algorithms:- 
+        In divide and conquer Algorithms, the idea is to solve the problem in two sections, the first section divides the problem into sub problmes of the same type. The second section is to solve the smaller problem independently and then add the combined result to produce the final answer to the problem.
+
+        -> Some common problem that is solved using divide and conquers algorithms are binary search merge sort Quick sort stasessn's matrix multiplicatoni etc
+        
